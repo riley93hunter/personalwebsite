@@ -14,14 +14,133 @@
 }
 
 .App-header {
-  background-color: #0bda2d;
-  min-height: 50vh;
+  background-color: #0984b4;
+  /* background-image: url('./rainier.jpg'); */
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-size: calc(35px + 4vmin);
+  color: rgb(92, 49, 49);
+}
+
+.subheader{
+  color: darkgreen;
   font-size: calc(14px + 2vmin);
-  color: red;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(15px + 4vmin);
+  color: rgb(28, 117, 129);
+}
+
+.LinkedIn{
+  background-color: blueviolet;
+  color: black;
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+
+.email{
+  background-color: blueviolet;
+  color: black;
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+
+.PortfolioContainer{
+  background-color:darkgreen;
+  height: 400px;
+  display: flex;
+}
+
+.AboutMe{
+  background-color:rgb(26, 167, 45);
+  height: 300px;
+  width: 1200px;
+  margin-top: 25px;
+  margin-left: 25px;
+  
+}
+
+.aboutmebox{
+  
+  height: 300px;
+  width: 800px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.probox{
+  height:300px;
+  width: 400px;
+  margin-right: 0px;
+  margin-top: -300px;
+  margin-bottom: 0px;
+  margin-left: 800px;
+  
+}
+
+.aboutheader{
+  font-size: 35px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 400px;
+  height: 50px;
+  width: 800px;
+  
+}
+
+.aboutdesc{
+  margin-left: 0px;
+  margin-right: 400px;
+  margin-top: -35px;
+  width: 800px;
+  height: 250px;
+  
+}
+
+.propic{
+  width: 400px;
+  height: 300px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+
+.ProjectsContainer{
+  background-color:aqua;
+  height: 300px;
+  width: 1200px;
+  margin-left: 650px;
+  margin-right: auto;
+  margin-top: 0px;
+  float: 0;
+}
+
+.projectheader{
+  height:50px;
+  width: 800px;
+  font-size: 30px;
+  margin-top: 0px;
+  margin-left: 400px;
+  color:black;
+}
+
+.projectbody{
+  height: 250px;
+  width: 800px;
+  margin-left: 400px;
+  margin-top: -30px;
+}
+
+.projectlinkbox{
+  height: 300px;
+  width: 400px;
+  margin-right: 800px;
+  margin-top: -300px;
 }
 
 .App-link {
