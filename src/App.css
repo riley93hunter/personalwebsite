@@ -364,10 +364,20 @@
   border-radius: 50px;
 }
 
+.ExtracurricularsContainer{
+  background-color: burlywood;
+  height: 400px;
+  width: 1600px;
+  margin-left: 125px;
+  margin-top: 0px;
+  border-radius: 50px;
+}
+
 .End{
   background-color:darkgreen;
   height: 600px;
   display: flex;
+  
 }
 
 .EndContainer{
@@ -377,6 +387,23 @@
   height: 550px;
   width: 1800px;
   border-radius: 50px 50px 0px 0px;
+  
+}
+
+.ReferencesContainer{
+  background-color: #61dafb;
+  width: 850px;
+  height: 500px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.ClosingNotesUpdatesContainer{
+  background-color: #0984b4;
+  width: 850px;
+  height: 500px;
+  margin-left: 900px;
+  margin-top: -520px;
 }
 
 @keyframes App-logo-spin {

@@ -120,128 +120,123 @@ function App() {
             <h3 className='header'>
               Computer Securities
             </h3>
-            <div className='body'>
-            </div>
-            <div className='picture'>
-            </div>
+           
           </div>
           <div className='AdvancedDataContainer'>
             <h3 className='header'>
               Advanced Data Structures
             </h3>
-            <div className='body'>
-            </div>
-            <div className='picture'>
-            </div>
+            
           </div>
           <div className='AlgorithmsContainer'>
             <h3 className='header'>
               Algorithms
             </h3>
-            <div className='body'>
-            </div>
-            <div className='picture'>
-            </div>
+            
           </div>
           <div className='OOPSContainer'>
             <h3 className='header'>
               Object Oriented Principles
             </h3>
-            <div className='body'>
-            </div>
-            <div className='picture'>
-            </div>
+            
           </div>
           <div className='SWEContainer'>
             <h3 className='header'>
               Software Engineering Principles I/II
             </h3>
-            <div className='body'>
-            </div>
-            <div className='picture'>
-            </div>
+            
           </div>
           <div className='DatabasesContainer'>
             <h3 className='header'>
               Database Systems Management
             </h3>
-            <div className='body'>
-            </div>
-            <div className='picture'>
-            </div>
+            Focus on Relationial Databases, Postgres SQL, and database
+            design and management. Full stack yelp-like application with
+            python JSON parser, SQL database and C# XML front end with
+            SQL connections. Project has no share permissions due to
+            acedemic integrity requirements.
           </div>
           <div className='MLContainer'>
             <h3 className='header'>
               Machine Learning
             </h3>
-            <div className='body'>
-            </div>
-            <div className='picture'>
-            </div>
+            A class that focuses on different Machine Learning Algorithms
+            that can predict outcomes. Classwork done in Python. 
           </div>
           <div className='EmbeddedContainer'>
             <h3 className='header'>
               Principles of Embedded Software 
             </h3>
-            <div className='body'>
-            </div>
-            <div className='picture'>
-            </div>
+            Project based class focusing on embedded software design. 
+            Examples of projects were bluetooth fan, traffic light sensor,
+            temperature sensor with audio output. Projects based off 
+            Texas Instruments microcontroller.
           </div>
           <div className='SystemsContainer'>
             <h3 className='header'>
               Systems Programming
             </h3>
-            <div className='body'>
-            </div>
-            <div className='picture'>
-            </div>
+            Systems programming in C done in a linux environment.
           </div>
           <div className='SADContainer'>
             <h3 className='header'>
               Software Architecture and Design
             </h3>
-            <div className='body'>
-            </div>
-            <div className='picture'>
-            </div>
+            
           </div>
           <div className='CapsContainer'>
             <h3 className='header'>
               Capstone (Senior Project) I/II
             </h3>
-            <div className='body'>
-            </div>
-            <div className='picture'>
-            </div>
+            
           </div>
           <div className='OtherContainer'>
             <h3 className='header'>
               Other Coursework
             </h3>
-            <div className='body'>
-            </div>
-            <div className='picture'>
-            </div>
+            
           </div>
         </div>
       </div>
 
       <div className='PortfolioContainer'>
         <div className='HardSkillsOverview'>
-          
+          <h3>
+            Hard Skills
+          </h3>
         </div>
       </div>
 
       <div className='PortfolioContainer'>
         <div className='SoftSkillsOverview'>
-          
+          <h3>
+            Soft Skills
+          </h3>
+        </div>
+      </div>
+
+      <div className='PortfolioContainer'>
+        <div className='ExtracurricularsContainer'>
+          <h3>
+            Extracurricular Activities
+          </h3>
         </div>
       </div>
 
       <div className='End'>
         <div className='EndContainer'>
-          
+          <div className='ReferencesContainer'>
+            <h3>
+              References
+            </h3>
+            
+          </div>
+          <div className='ClosingNotesUpdatesContainer'>
+            <h3>
+              Site Updates
+            </h3>
+            - 3/7 Created layout and template for site.
+          </div>
         </div>
       </div>
 
