@@ -118,7 +118,7 @@ function App() {
           <h3 className='CourseHeader'>Course Work - Coming Soon</h3>
           <div className='DiscreteMathematicsContainer'>
             <h3 className='header'>
-              Computer Securities
+              Computer Security
             </h3>
            
           </div>
@@ -144,7 +144,8 @@ function App() {
             <h3 className='header'>
               Software Engineering Principles I/II
             </h3>
-            
+            Focus on different different workflows, software processes, testing
+            protocals for unit, integration and system testing.
           </div>
           <div className='DatabasesContainer'>
             <h3 className='header'>
@@ -176,13 +177,19 @@ function App() {
             <h3 className='header'>
               Systems Programming
             </h3>
-            Systems programming in C done in a linux environment.
+            Systems programming in C done in a linux environment. Built a 
+            File Extension System satisfactory to course requirements. Utilized
+            Git Bash, Raspberry Pi4, Nano and GDB debugger.
           </div>
           <div className='SADContainer'>
             <h3 className='header'>
               Software Architecture and Design
             </h3>
-            
+            Focuses on the principles of software architecture and various
+            design patterns such as abstract factory or composite design 
+            patterns. Semester project uses Monogame with a factory design
+            pattern in order to build a basic arcade game. Github not available
+            for acedemic itegrity purposes.
           </div>
           <div className='CapsContainer'>
             <h3 className='header'>
@@ -192,7 +199,7 @@ function App() {
           </div>
           <div className='OtherContainer'>
             <h3 className='header'>
-              Other Coursework
+              Software Maitenence
             </h3>
             
           </div>
@@ -236,6 +243,10 @@ function App() {
               Site Updates
             </h3>
             - 3/7 Created layout and template for site.
+            <br></br>
+            - 3/8 Continuing to fill out content for the site.
+            <br></br>
+            - Future Updates: Comments, better UI/UX and refactor.
           </div>
         </div>
       </div>
