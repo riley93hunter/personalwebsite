@@ -202,9 +202,10 @@
 .PortfolioContainerCC{
   background-color:darkgreen;
   min-height: 1000px;
-  width: 1910px;
+  
   margin-top: -50px;
   margin-bottom: 0px;
+  display: flex;
   overflow:auto;
   
 }
@@ -348,7 +349,7 @@
 
 .HardSkillsOverview{
   background-color: burlywood;
-  height: 300px;
+  height: 350px;
   width: 1000px;
   margin-left: 50px;
   margin-top: 50px;
@@ -357,7 +358,7 @@
 
 .SoftSkillsOverview{
   background-color: burlywood;
-  height: 300px;
+  height: 350px;
   width: 1000px;
   margin-left: 850px;
   margin-top: 50px;
@@ -369,7 +370,7 @@
   height: 400px;
   width: 1600px;
   margin-left: 125px;
-  margin-top: 0px;
+  margin-top: 25px;
   border-radius: 50px;
 }
 
@@ -404,6 +405,180 @@
   height: 500px;
   margin-left: 900px;
   margin-top: -520px;
+}
+
+/*HARD/SOFT SKIILZ */
+.SkillBox1{
+  height: 80px;
+  width: 950px;
+  position: relative;
+  margin-left: 25px;
+  margin-bottom: 0px;
+  border-radius: 0px;
+  background-color: brown;
+  border-style:double;
+}
+
+/*HARDSkies*/
+.skillHeader{
+  margin-left: -750px;
+}
+
+.lang1{
+  height: 70px;
+  width: 100px;
+  margin-left: 200px;
+  margin-top: -58px;
+  background-color: darkolivegreen;
+  color: darkgoldenrod;
+  font-size: larger;
+  border-radius: 25px;
+}
+.lang2{
+  height: 70px;
+  width: 100px;
+  margin-left: 350px;
+  margin-top: -70px;
+  background-color: darkolivegreen;
+  color: darkgoldenrod;
+  font-size: larger;
+  border-radius: 25px;
+}
+.lang3{
+  height: 70px;
+  width: 100px;
+  margin-left: 500px;
+  margin-top: -70px;
+  background-color: darkolivegreen;
+  color: darkgoldenrod;
+  font-size: larger;
+  border-radius: 25px;
+}
+.lang4{
+  height: 70px;
+  width: 100px;
+  margin-left: 650px;
+  margin-top: -70px;
+  background-color: darkolivegreen;
+  color: darkgoldenrod;
+  font-size: larger;
+  border-radius: 25px;
+}
+.lang5{
+  height: 70px;
+  width: 100px;
+  margin-left: 800px;
+  margin-top: -70px;
+  background-color: darkolivegreen;
+  color: darkgoldenrod;
+  font-size: larger;
+  border-radius: 25px;
+}
+
+.SkillBox2{
+  height: 80px;
+  width: 950px;
+  position: relative;
+  margin-left: 25px;
+  margin-bottom: 0px;
+  border-radius: 0px;
+  background-color: brown;
+  border-style:double;
+}
+
+.SkillBox3{
+  height: 80px;
+  width: 950px;
+  margin-left: 25px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  border-radius: 0px;
+  background-color: brown;
+  border-style:double;
+}
+
+
+.SkillBox4{
+  height: 150px;
+  width: 1550px;
+  position: relative;
+  margin-left: 25px;
+  margin-bottom: 0px;
+  border-radius: 0px;
+  background-color: brown;
+  
+}
+
+.SkillBox5{
+  height: 150px;
+  width: 1550px;
+  margin-left: 25px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  border-radius: 0px;
+  background-color: brown;
+  
+}
+.SkillBox6{
+  height: 145px;
+  width: 775px;
+  position: relative;
+  margin-left: -5px;
+  margin-top: -3px;
+  border-radius: 0px;
+  background-color: brown;
+  border-style:double;
+}
+
+.SkillBox7{
+  height: 145px;
+  width: 775px;
+  position: relative;
+  margin-left: 773px;
+  margin-bottom: 0px;
+  margin-top: -150px;
+  border-radius: 0px;
+  background-color: brown;
+  border-style:double;
+}
+
+.SkillBox8{
+  height: 145px;
+  width: 775px;
+  position: relative;
+  margin-left: -5px;
+  margin-top: 0px;
+  border-radius: 0px;
+  background-color: brown;
+  border-style:double;
+} 
+
+.SkillBox9{
+  height: 145px;
+  width: 775px;
+  margin-left: 773px;
+  margin-top: -150px;
+  border-radius: 0px;
+  background-color: brown;
+   border-style:double;
+}
+
+.picBox{
+  height: 145px;
+  width: 200px;
+  background-color: aliceblue;
+}
+
+.textBox{
+  height: 145px;
+  width: 575px;
+  margin-left: 200px;
+  margin-top: -145px;
+  background-color: blue;
+}
+
+.textBox{
+  
 }
 
 @keyframes App-logo-spin {

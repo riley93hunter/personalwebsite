@@ -120,25 +120,33 @@ function App() {
             <h3 className='header'>
               Computer Security
             </h3>
-           
+            Encryption/decryption, CRUD permissions, security policies, etc all 
+            covered in this course.  
           </div>
           <div className='AdvancedDataContainer'>
             <h3 className='header'>
               Advanced Data Structures
             </h3>
-            
+            Programming heavy course in C++ that covers different data structures
+            including trees, linked lists, queues, hashes and stacks. All done in
+            a linux environment.
           </div>
           <div className='AlgorithmsContainer'>
             <h3 className='header'>
               Algorithms
             </h3>
-            
+            A look into different algoritms complexity covering their time 
+            and space, uses, and structures. Regular expressions, Chomsky Normal
+            Form, encryption/decryption and various other topics covered.
           </div>
           <div className='OOPSContainer'>
             <h3 className='header'>
               Object Oriented Principles
             </h3>
-            
+            A look into object oriented language and design. The language learned
+            was C# and was used to create a Spreadsheet application utilizing
+            Visual Studios and gitlab as a semester project. Design patterns, test
+            driven development and version control were also main subjects.
           </div>
           <div className='SWEContainer'>
             <h3 className='header'>
@@ -195,13 +203,21 @@ function App() {
             <h3 className='header'>
               Capstone (Senior Project) I/II
             </h3>
-            
+            Year long senior project class where project mentors were assigned
+            to our group with a task to work on a given project. Our senior project
+            was on the Boeing Natural Language Processing project. We were led by 
+            Don Brancato and Rakshit Bhatt. Many technologies were learned including
+            Javascript/HTML/CSS with React and Bootstrap. Python flask and CSV crud operations
+            were also a major area of the application as is containerization and 
+            the software development process. 
           </div>
           <div className='OtherContainer'>
             <h3 className='header'>
-              Software Maitenence
+              Software Maintenence
             </h3>
-            
+            Refactoring, bug fixing, code analysis and quality assurance
+            techniques learned in a Java envirnment using Eclipse IDE,
+            JDeoderant, PMC, and the command line. 
           </div>
         </div>
       </div>
@@ -211,6 +227,66 @@ function App() {
           <h3>
             Hard Skills
           </h3>
+          <div className='SkillBox1'>
+              <h3 className='skillHeader'>
+                Languages:
+              </h3>
+              <div className='lang1'>
+                C/C#
+              </div> 
+              <div className='lang2'>
+                Python
+              </div> 
+              <div className='lang3'>
+                SQL
+              </div> 
+              <div className='lang4'>
+                Javascript
+              </div> 
+              <div className='lang5'>
+                HTML/CSS
+              </div> 
+          </div>
+          <div className='SkillBox2'>
+              <h3 className='skillHeader'>
+                Tools and Teaming:
+              </h3>
+              <div className='lang1'>
+                .NET XML and WPF
+              </div> 
+              <div className='lang2'>
+                Flask
+              </div> 
+              <div className='lang3'>
+                Postgres
+              </div> 
+              <div className='lang4'>
+                React and Bootstrap
+              </div> 
+              <div className='lang5'>
+                Git/Github
+              </div> 
+          </div>
+          <div className='SkillBox3'>
+              <h3 className='skillHeader'>
+                OS and Applications:
+              </h3>
+              <div className='lang1'>
+                Raspbian/ Ubuntu
+              </div> 
+              <div className='lang2'>
+                Windows/ Linux
+              </div> 
+              <div className='lang3'>
+                Microsoft Office
+              </div> 
+              <div className='lang4'>
+                PMD
+              </div> 
+              <div className='lang5'>
+                JDeoderant
+              </div> 
+          </div>
         </div>
       </div>
 
@@ -219,6 +295,68 @@ function App() {
           <h3>
             Soft Skills
           </h3>
+          <div className='SkillBox1'>
+              <h3 className='skillHeader'>
+                Business Skills:
+              </h3>
+              <div className='lang1'>
+                Ted
+              </div> 
+              <div className='lang2'>
+                Ted
+              </div> 
+              <div className='lang3'>
+                Ted
+              </div> 
+              <div className='lang4'>
+                Ted
+              </div> 
+              <div className='lang5'>
+                Ted
+              </div> 
+
+          </div>
+         
+          <div className='SkillBox2'>
+              <h3 className='skillHeader'>
+                Interpersonal Skills:
+              </h3>
+              <div className='lang1'>
+                Ted
+              </div> 
+              <div className='lang2'>
+                Ted
+              </div> 
+              <div className='lang3'>
+                Ted
+              </div> 
+              <div className='lang4'>
+                Ted
+              </div> 
+              <div className='lang5'>
+                Ted
+              </div> 
+          </div>
+          <div className='SkillBox3'>
+          <h3 className='skillHeader'>
+                Marketing Skills:
+              </h3>
+              <div className='lang1'>
+                Ted
+              </div> 
+              <div className='lang2'>
+                Ted
+              </div> 
+              <div className='lang3'>
+                Ted
+              </div> 
+              <div className='lang4'>
+                Ted
+              </div> 
+              <div className='lang5'>
+                Ted
+              </div> 
+          </div>
         </div>
       </div>
 
@@ -227,6 +365,42 @@ function App() {
           <h3>
             Extracurricular Activities
           </h3>
+          <div className='SkillBox4'>
+            <div className='SkillBox6'>
+              <div className='picBox'>
+
+              </div>
+              <div className='textBox'>  
+
+              </div>
+            </div>
+            <div className='SkillBox7'>
+              <div className='picBox'>
+
+              </div>
+              <div className='textBox'>  
+
+              </div>
+            </div>
+          </div>
+          <div className='SkillBox5'>
+            <div className='SkillBox8'>
+              <div className='picBox'>
+
+              </div>
+              <div className='textBox'>  
+
+              </div>
+            </div>
+            <div className='SkillBox9'>
+              <div className='picBox'>
+
+              </div>
+              <div className='textBox'>  
+
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -246,7 +420,7 @@ function App() {
             <br></br>
             - 3/8 Continuing to fill out content for the site.
             <br></br>
-            - Future Updates: Comments, better UI/UX and refactor.
+            - Future Updates: Comments, better UI/UX and refactor. 
           </div>
         </div>
       </div>
