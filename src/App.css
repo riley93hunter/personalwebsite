@@ -56,13 +56,14 @@
 }
 
 .AboutMe{
-  background-color:rgb(26, 167, 45);
+  background-color:aqua;
   height: 300px;
   width: 1200px;
   margin-top: 50px;
   margin-left: 25px;
   margin-bottom: 50px;
   border-radius: 25px;
+  border-style: groove;
 }
 
 .aboutmebox{
@@ -105,13 +106,13 @@
 }
 
 .propic{
-  width: 400px;
+  width: 300px;
   height: 300px;
   margin-top: 0px;
-  margin-left: 0px;
+  margin-left: 100px;
   margin-right: 0px;
   margin-bottom: 0px;
-  border-radius: 0px 25px 25px 0px;
+  border-radius: 0px 20px 20px 0px;
 }
 
 .ProjectsContainer{
@@ -124,6 +125,7 @@
   margin-bottom: 50px;
   float: 0;
   border-radius: 25px;
+  border-style: groove;
 }
 
 .projectheader{
@@ -152,6 +154,14 @@
   border-radius: 25px 0px 0px 25px;
 }
 
+.webimage{
+  height:300px;
+  width: 400px;
+  margin-top: 1.5px;
+  margin-right: 800px;
+  border-radius: 25px 0px 0px 25px;
+}
+
 .ProjectsContainer1{
   background-color:aqua;
   height: 300px;
@@ -162,6 +172,7 @@
   margin-bottom: 50px;
   float: 0;
   border-radius: 25px;
+  border-style: groove;
 }
 
 .projectheader1{
@@ -188,17 +199,6 @@
   margin-top: -300px;
 }
 
-.CourseContainer{
-  margin-left: 55px;
-  margin-right: 55px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  height: 1200px;
-  background-color: rgb(26, 167, 45);
-  overflow:auto;
-  border-radius: 50px;
-}
-
 .PortfolioContainerCC{
   background-color:darkgreen;
   min-height: 1000px;
@@ -213,126 +213,34 @@
 /*
 * Course Containers
 */
-
-.DiscreteMathematicsContainer{
-  background-color: greenyellow;
-  height: 300px;
-  width: 350px;
-  margin-left: 50px;
+.CourseContainer{
+  margin-left: 55px;
+  margin-right: 55px;
   margin-top: 50px;
-  float: 0;
-  border-radius: 50px;
+  margin-bottom: 50px;
+  height: 1200px;
+  width: 1650px;
+  background-color: aqua;
   overflow:auto;
+  border-radius: 50px;
+  border-style: groove;
 }
 
-.AdvancedDataContainer{
-  background-color: greenyellow;
-  height: 300px;
-  width: 350px;
-  margin-left: 450px;
-  margin-top: -300px;
-  float: 0;
-  border-radius: 50px;
-}
+.CourseContainerDivBox{
+  height: 350px;
+  width: auto;
+} 
 
-.AlgorithmsContainer{
-  background-color: greenyellow;
+.CourseContainerBox{
+  background-color: lightgray;
+  margin-top: 25px;
   height: 300px;
   width: 350px;
-  margin-left: 850px;
-  margin-top: -300px;
   float: 0;
   border-radius: 50px;
-}
-
-.OOPSContainer{
-  background-color: greenyellow;
-  height: 300px;
-  width: 350px;
-  margin-left: 1250px;
-  margin-top: -300px;
-  float: 0;
-  border-radius: 50px;
-}
-
-.SWEContainer{
-  background-color: greenyellow;
-  height: 300px;
-  width: 350px;
-  margin-left: 50px;
-  margin-top: 50px;
-  float: 0;
-  border-radius: 50px;
-}
-
-.DatabasesContainer{
-  background-color: greenyellow;
-  height: 300px;
-  width: 350px;
-  margin-left: 450px;
-  margin-top: -300px;
-  float: 0;
-  border-radius: 50px;
-}
-
-.MLContainer{
-  background-color: greenyellow;
-  height: 300px;
-  width: 350px;
-  margin-left: 850px;
-  margin-top: -300px;
-  float: 0;
-  border-radius: 50px;
-}
-
-.EmbeddedContainer{
-  background-color: greenyellow;
-  height: 300px;
-  width: 350px;
-  margin-left: 1250px;
-  margin-top: -300px;
-  float: 0;
-  border-radius: 50px;
-}
-
-.SystemsContainer{
-  background-color: greenyellow;
-  height: 300px;
-  width: 350px;
-  margin-left: 50px;
-  margin-top: 50px;
-  float: 0;
-  border-radius: 50px;
-}
-
-.SADContainer{
-  background-color: greenyellow;
-  height: 300px;
-  width: 350px;
-  margin-left: 450px;
-  margin-top: -300px;
-  float: 0;
-  border-radius: 50px;
-}
-
-.CapsContainer{
-  background-color: greenyellow;
-  height: 300px;
-  width: 350px;
-  margin-left: 850px;
-  margin-top: -300px;
-  float: 0;
-  border-radius: 50px;
-}
-
-.OtherContainer{
-  background-color: greenyellow;
-  height: 300px;
-  width: 350px;
-  margin-left: 1250px;
-  margin-top: -300px;
-  float: 0;
-  border-radius: 50px;
+  border-style: groove;
+  float:left;
+  margin-left: 40px;
 }
 
 .header{
@@ -348,30 +256,33 @@
 }
 
 .HardSkillsOverview{
-  background-color: burlywood;
+  background-color:aqua;
   height: 350px;
   width: 1000px;
   margin-left: 50px;
   margin-top: 50px;
   border-radius: 50px;
+  border-style:groove;
 }
 
 .SoftSkillsOverview{
-  background-color: burlywood;
+  background-color:aqua;
   height: 350px;
   width: 1000px;
   margin-left: 850px;
   margin-top: 50px;
   border-radius: 50px;
+  border-style:groove;
 }
 
 .ExtracurricularsContainer{
-  background-color: burlywood;
+  background-color:aqua;
   height: 400px;
   width: 1600px;
   margin-left: 125px;
   margin-top: 25px;
   border-radius: 50px;
+  border-style:groove;
 }
 
 .End{
@@ -382,29 +293,31 @@
 }
 
 .EndContainer{
-  margin-top: 50px;
+  margin-top: 45px;
   margin-left: 50px;
-  background-color: burlywood;
+  background-color:aqua;
   height: 550px;
   width: 1800px;
   border-radius: 50px 50px 0px 0px;
-  
+  border-style:groove;
 }
 
 .ReferencesContainer{
-  background-color: #61dafb;
+  background-color: lightgrey;
   width: 850px;
   height: 500px;
   margin-left: 50px;
-  margin-top: 50px;
+  margin-top: 45px;
+  border-style:groove;
 }
 
 .ClosingNotesUpdatesContainer{
-  background-color: #0984b4;
+  background-color: lightgrey;
   width: 850px;
   height: 500px;
-  margin-left: 900px;
-  margin-top: -520px;
+  margin-left: 905px;
+  margin-top: -506px;
+  border-style:groove;
 }
 
 /*HARD/SOFT SKIILZ */
@@ -415,8 +328,17 @@
   margin-left: 25px;
   margin-bottom: 0px;
   border-radius: 0px;
-  background-color: brown;
+  background-color: lightblue;
   border-style:double;
+}
+
+.SkillBoxDiv1{
+  height: 80px;
+  width: 750px;
+  position: relative;
+  display: flex;
+  margin-left: 200px;
+  margin-top: -60px;
 }
 
 /*HARDSkies*/
@@ -424,79 +346,17 @@
   margin-left: -750px;
 }
 
-.lang1{
+.lang{
   height: 70px;
-  width: 100px;
-  margin-left: 200px;
-  margin-top: -58px;
-  background-color: darkolivegreen;
-  color: darkgoldenrod;
+  width: 200px;
+  background-color: lightgrey;
+  color: black;
   font-size: larger;
   border-radius: 25px;
+  border-style:groove;
+  float:left;
+  margin-right: 25px;
 }
-.lang2{
-  height: 70px;
-  width: 100px;
-  margin-left: 350px;
-  margin-top: -70px;
-  background-color: darkolivegreen;
-  color: darkgoldenrod;
-  font-size: larger;
-  border-radius: 25px;
-}
-.lang3{
-  height: 70px;
-  width: 100px;
-  margin-left: 500px;
-  margin-top: -70px;
-  background-color: darkolivegreen;
-  color: darkgoldenrod;
-  font-size: larger;
-  border-radius: 25px;
-}
-.lang4{
-  height: 70px;
-  width: 100px;
-  margin-left: 650px;
-  margin-top: -70px;
-  background-color: darkolivegreen;
-  color: darkgoldenrod;
-  font-size: larger;
-  border-radius: 25px;
-}
-.lang5{
-  height: 70px;
-  width: 100px;
-  margin-left: 800px;
-  margin-top: -70px;
-  background-color: darkolivegreen;
-  color: darkgoldenrod;
-  font-size: larger;
-  border-radius: 25px;
-}
-
-.SkillBox2{
-  height: 80px;
-  width: 950px;
-  position: relative;
-  margin-left: 25px;
-  margin-bottom: 0px;
-  border-radius: 0px;
-  background-color: brown;
-  border-style:double;
-}
-
-.SkillBox3{
-  height: 80px;
-  width: 950px;
-  margin-left: 25px;
-  margin-bottom: 0px;
-  margin-top: 0px;
-  border-radius: 0px;
-  background-color: brown;
-  border-style:double;
-}
-
 
 .SkillBox4{
   height: 150px;
@@ -505,7 +365,7 @@
   margin-left: 25px;
   margin-bottom: 0px;
   border-radius: 0px;
-  background-color: brown;
+  background-color: lightblue;
   
 }
 
@@ -516,7 +376,7 @@
   margin-bottom: 0px;
   margin-top: 0px;
   border-radius: 0px;
-  background-color: brown;
+  background-color: lightblue;
   
 }
 .SkillBox6{
@@ -526,7 +386,7 @@
   margin-left: -5px;
   margin-top: -3px;
   border-radius: 0px;
-  background-color: brown;
+  background-color: lightblue;
   border-style:double;
 }
 
@@ -538,7 +398,7 @@
   margin-bottom: 0px;
   margin-top: -150px;
   border-radius: 0px;
-  background-color: brown;
+  background-color: lightblue;
   border-style:double;
 }
 
@@ -549,7 +409,7 @@
   margin-left: -5px;
   margin-top: 0px;
   border-radius: 0px;
-  background-color: brown;
+  background-color: lightblue;
   border-style:double;
 } 
 
@@ -559,26 +419,27 @@
   margin-left: 773px;
   margin-top: -150px;
   border-radius: 0px;
-  background-color: brown;
+  background-color: lightblue;
    border-style:double;
 }
 
 .picBox{
   height: 145px;
   width: 200px;
-  background-color: aliceblue;
+  background-color: white;
+}
+
+.activityPic{
+  height: 145px;
+  width: 200px;
 }
 
 .textBox{
   height: 145px;
   width: 575px;
   margin-left: 200px;
-  margin-top: -145px;
-  background-color: blue;
-}
-
-.textBox{
-  
+  margin-top: -164px;
+  background-color: lightgrey;
 }
 
 @keyframes App-logo-spin {

@@ -1,6 +1,8 @@
 import Button from 'react-bootstrap/Button';
 import rainier from './rainier.jpg';
-import propic from './profile pic temp.jpg';
+import mountainPic from './profile pic temp.jpg';
+import webPic from './logo-og.png';
+import propic from './Riley.jpeg';
 import nlppic from './nlp.jpg';
 import uploadedFileLink from './ResumeRileyHunter.pdf';
 import './App.css';
@@ -108,7 +110,7 @@ function App() {
             </a>
           </div>
           <div className='projectlinkbox1'>
-          {/* <img src={nlppic} className='nlpimage'></img> */}
+            <img src={webPic} className='webimage'></img>
           </div>
         </div>
       </div>
@@ -116,108 +118,114 @@ function App() {
       <div className='PortfolioContainerCC'>
         <div className='CourseContainer'>
           <h3 className='CourseHeader'>Course Work - Coming Soon</h3>
-          <div className='DiscreteMathematicsContainer'>
-            <h3 className='header'>
-              Computer Security
-            </h3>
-            Encryption/decryption, CRUD permissions, security policies, etc all 
-            covered in this course.  
-          </div>
-          <div className='AdvancedDataContainer'>
-            <h3 className='header'>
-              Advanced Data Structures
-            </h3>
-            Programming heavy course in C++ that covers different data structures
-            including trees, linked lists, queues, hashes and stacks. All done in
-            a linux environment.
-          </div>
-          <div className='AlgorithmsContainer'>
-            <h3 className='header'>
-              Algorithms
-            </h3>
-            A look into different algoritms complexity covering their time 
-            and space, uses, and structures. Regular expressions, Chomsky Normal
-            Form, encryption/decryption and various other topics covered.
-          </div>
-          <div className='OOPSContainer'>
-            <h3 className='header'>
-              Object Oriented Principles
-            </h3>
-            A look into object oriented language and design. The language learned
-            was C# and was used to create a Spreadsheet application utilizing
-            Visual Studios and gitlab as a semester project. Design patterns, test
-            driven development and version control were also main subjects.
-          </div>
-          <div className='SWEContainer'>
-            <h3 className='header'>
-              Software Engineering Principles I/II
-            </h3>
-            Focus on different different workflows, software processes, testing
-            protocals for unit, integration and system testing.
-          </div>
-          <div className='DatabasesContainer'>
-            <h3 className='header'>
-              Database Systems Management
-            </h3>
-            Focus on Relationial Databases, Postgres SQL, and database
-            design and management. Full stack yelp-like application with
-            python JSON parser, SQL database and C# XML front end with
-            SQL connections. Project has no share permissions due to
-            acedemic integrity requirements.
-          </div>
-          <div className='MLContainer'>
-            <h3 className='header'>
-              Machine Learning
-            </h3>
-            A class that focuses on different Machine Learning Algorithms
-            that can predict outcomes. Classwork done in Python. 
-          </div>
-          <div className='EmbeddedContainer'>
-            <h3 className='header'>
-              Principles of Embedded Software 
-            </h3>
-            Project based class focusing on embedded software design. 
-            Examples of projects were bluetooth fan, traffic light sensor,
-            temperature sensor with audio output. Projects based off 
-            Texas Instruments microcontroller.
-          </div>
-          <div className='SystemsContainer'>
-            <h3 className='header'>
-              Systems Programming
-            </h3>
-            Systems programming in C done in a linux environment. Built a 
-            File Extension System satisfactory to course requirements. Utilized
-            Git Bash, Raspberry Pi4, Nano and GDB debugger.
-          </div>
-          <div className='SADContainer'>
-            <h3 className='header'>
-              Software Architecture and Design
-            </h3>
-            Focuses on the principles of software architecture and various
-            design patterns such as abstract factory or composite design 
-            patterns. Semester project uses Monogame with a factory design
-            pattern in order to build a basic arcade game. Github not available
-            for acedemic itegrity purposes.
-          </div>
-          <div className='CapsContainer'>
-            <h3 className='header'>
-              Capstone (Senior Project) I/II
-            </h3>
-            Year long senior project class where project mentors were assigned
-            to our group with a task to work on a given project. Our senior project
-            was on the Boeing Natural Language Processing project. We were led by 
-            Don Brancato and Rakshit Bhatt. Many technologies were learned including
-            Javascript/HTML/CSS with React and Bootstrap. Python flask and CSV crud operations
-            were also a major area of the application as is containerization and 
-            the software development process. 
-          </div>
-          <div className='OtherContainer'>
-            <h3 className='header'>
-              Software Maintenence
-            </h3>
-            Refactoring, bug fixing, code analysis and quality assurance
-            techniques learned in a Java envirnment using Eclipse IDE,
-            JDeoderant, PMC, and the command line. 
+            <div className='CourseContainerDivBox'>
+              <div className='CourseContainerBox'>
+                <h3 className='header'>
+                  Computer Security
+                </h3>
+                Encryption/decryption, CRUD permissions, security policies, etc all 
+                covered in this course.  
+              </div>
+              <div className='CourseContainerBox'>
+                <h3 className='header'>
+                  Advanced Data Structures
+                </h3>
+                Programming heavy course in C++ that covers different data structures
+                including trees, linked lists, queues, hashes and stacks. All done in
+                a linux environment.
+              </div>
+              <div className='CourseContainerBox'>
+                <h3 className='header'>
+                  Algorithms
+                </h3>
+                A look into different algoritms complexity covering their time 
+                and space, uses, and structures. Regular expressions, Chomsky Normal
+                Form, encryption/decryption and various other topics covered.
+              </div>
+              <div className='CourseContainerBox'>
+                <h3 className='header'>
+                  Object Oriented Principles
+                </h3>
+                A look into object oriented language and design. The language learned
+                was C# and was used to create a Spreadsheet application utilizing
+                Visual Studios and gitlab as a semester project. Design patterns, test
+                driven development and version control were also main subjects.
+              </div>
+            </div>
+            <div className='CourseContainerDivBox'>
+              <div className='CourseContainerBox'>
+                <h3 className='header'>
+                  Software Engineering Principles I/II
+                </h3>
+                Focus on different different workflows, software processes, testing
+                protocals for unit, integration and system testing.
+              </div>
+              <div className='CourseContainerBox'>
+                <h3 className='header'>
+                  Database Systems Management
+                </h3>
+                Focus on Relationial Databases, Postgres SQL, and database
+                design and management. Full stack yelp-like application with
+                python JSON parser, SQL database and C# XML front end with
+                SQL connections. Project has no share permissions due to
+                acedemic integrity requirements.
+              </div>
+              <div className='CourseContainerBox'>
+                <h3 className='header'>
+                  Machine Learning
+                </h3>
+                A class that focuses on different Machine Learning Algorithms
+                that can predict outcomes. Classwork done in Python. 
+              </div>
+              <div className='CourseContainerBox'>
+                <h3 className='header'>
+                  Principles of Embedded Software 
+                </h3>
+                Project based class focusing on embedded software design. 
+                Examples of projects were bluetooth fan, traffic light sensor,
+                temperature sensor with audio output. Projects based off 
+                Texas Instruments microcontroller.
+              </div>
+            </div>
+            <div className='CourseContainerDivBox'>
+              <div className='CourseContainerBox'>
+                <h3 className='header'>
+                  Systems Programming
+                </h3>
+                Systems programming in C done in a linux environment. Built a 
+                File Extension System satisfactory to course requirements. Utilized
+                Git Bash, Raspberry Pi4, Nano and GDB debugger.
+              </div>
+              <div className='CourseContainerBox'>
+                <h3 className='header'>
+                  Software Architecture and Design
+                </h3>
+                Focuses on the principles of software architecture and various
+                design patterns such as abstract factory or composite design 
+                patterns. Semester project uses Monogame with a factory design
+                pattern in order to build a basic arcade game. Github not available
+                for acedemic itegrity purposes.
+              </div>
+              <div className='CourseContainerBox'>
+                <h3 className='header'>
+                  Capstone (Senior Project) I/II
+                </h3>
+                Year long senior project class where project mentors were assigned
+                to our group with a task to work on a given project. Our senior project
+                was on the Boeing Natural Language Processing project. We were led by 
+                Don Brancato and Rakshit Bhatt. Many technologies were learned including
+                Javascript/HTML/CSS with React and Bootstrap. Python flask and CSV crud operations
+                were also a major area of the application as is containerization and 
+                the software development process. 
+              </div>
+              <div className='CourseContainerBox'>
+                <h3 className='header'>
+                  Software Maintenence
+                </h3>
+                Refactoring, bug fixing, code analysis and quality assurance
+                techniques learned in a Java envirnment using Eclipse IDE,
+                JDeoderant, PMC, and the command line. 
+              </div>
           </div>
         </div>
       </div>
@@ -228,64 +236,76 @@ function App() {
             Hard Skills
           </h3>
           <div className='SkillBox1'>
+            <div>
               <h3 className='skillHeader'>
                 Languages:
               </h3>
-              <div className='lang1'>
+            </div>
+            <div className='SkillBoxDiv1'>
+             <div className='lang'>
                 C/C#
+              </div>
+              <div className='lang'>
+                  Python
+              </div>
+              <div className='lang'>
+                   SQL
               </div> 
-              <div className='lang2'>
-                Python
-              </div> 
-              <div className='lang3'>
-                SQL
-              </div> 
-              <div className='lang4'>
-                Javascript
-              </div> 
-              <div className='lang5'>
+              <div className='lang'>
+                 Javascript
+              </div>
+              <div className='lang'>
                 HTML/CSS
-              </div> 
+              </div>
+            </div>
           </div>
-          <div className='SkillBox2'>
+          <div className='SkillBox1'>
+            <div>
               <h3 className='skillHeader'>
                 Tools and Teaming:
               </h3>
-              <div className='lang1'>
-                .NET XML and WPF
+            </div>
+            <div className='SkillBoxDiv1'>
+              <div className='lang'>
+                .NET XML, XNA and WPF
               </div> 
-              <div className='lang2'>
+              <div className='lang'>
                 Flask
               </div> 
-              <div className='lang3'>
+              <div className='lang'>
                 Postgres
               </div> 
-              <div className='lang4'>
+              <div className='lang'>
                 React and Bootstrap
               </div> 
-              <div className='lang5'>
+              <div className='lang'>
                 Git/Github
               </div> 
+            </div>
           </div>
-          <div className='SkillBox3'>
+          <div className='SkillBox1'>
+            <div>
               <h3 className='skillHeader'>
                 OS and Applications:
               </h3>
-              <div className='lang1'>
+            </div>
+            <div className='SkillBoxDiv1'>
+              <div className='lang'>
                 Raspbian/ Ubuntu
               </div> 
-              <div className='lang2'>
+              <div className='lang'>
                 Windows/ Linux
               </div> 
-              <div className='lang3'>
+              <div className='lang'>
                 Microsoft Office
               </div> 
-              <div className='lang4'>
+              <div className='lang'>
                 PMD
               </div> 
-              <div className='lang5'>
+              <div className='lang'>
                 JDeoderant
-              </div> 
+              </div>
+            </div> 
           </div>
         </div>
       </div>
@@ -296,66 +316,65 @@ function App() {
             Soft Skills
           </h3>
           <div className='SkillBox1'>
+            <div>
               <h3 className='skillHeader'>
                 Business Skills:
               </h3>
-              <div className='lang1'>
-                Ted
+            </div>
+            <div className='SkillBoxDiv1'>
+              <div className='lang'>
+                Networking
               </div> 
-              <div className='lang2'>
-                Ted
+              <div className='lang'>
+                Negotiating
               </div> 
-              <div className='lang3'>
-                Ted
+              <div className='lang'>
+                Public Speaking
               </div> 
-              <div className='lang4'>
-                Ted
+              <div className='lang'>
+                Project Planning
               </div> 
-              <div className='lang5'>
-                Ted
-              </div> 
-
+              <div className='lang'>
+                Presenting
+              </div>
+            </div> 
           </div>
          
-          <div className='SkillBox2'>
+          <div className='SkillBox1'>
+            <div>
               <h3 className='skillHeader'>
-                Interpersonal Skills:
+                Team Skills:
               </h3>
-              <div className='lang1'>
-                Ted
+            </div>
+            <div className='SkillBoxDiv1'>
+              <div className='lang'>
+                Team Building
               </div> 
-              <div className='lang2'>
-                Ted
+              <div className='lang'>
+                Team Management
               </div> 
-              <div className='lang3'>
-                Ted
+              <div className='lang'>
+                Inspire Teams
               </div> 
-              <div className='lang4'>
-                Ted
+              <div className='lang'>
+                Delegation
               </div> 
-              <div className='lang5'>
-                Ted
-              </div> 
+            </div>  
           </div>
-          <div className='SkillBox3'>
-          <h3 className='skillHeader'>
-                Marketing Skills:
+          <div className='SkillBox1'>
+            <div>
+              <h3 className='skillHeader'>
+                Individual Skills:
               </h3>
-              <div className='lang1'>
-                Ted
+            </div>
+            <div className='SkillBoxDiv1'>
+              <div className='lang'>
+                Technical Writing
+              </div>  
+              <div className='lang'>
+                Problem Solving
               </div> 
-              <div className='lang2'>
-                Ted
-              </div> 
-              <div className='lang3'>
-                Ted
-              </div> 
-              <div className='lang4'>
-                Ted
-              </div> 
-              <div className='lang5'>
-                Ted
-              </div> 
+            </div>
           </div>
         </div>
       </div>
@@ -368,36 +387,62 @@ function App() {
           <div className='SkillBox4'>
             <div className='SkillBox6'>
               <div className='picBox'>
-
+                <img src={mountainPic} className='activityPic'></img>
               </div>
               <div className='textBox'>  
-
+                <h3 className='ActivityTitle'>
+                  Martial Arts
+                </h3>
+                  Riley enjoys a wide variety of martial arts disciplines including
+                  Kyokushin, Kickboxing, Judo, and Jiu Jitsu and has competitive 
+                  experience. Riley holds a Black Belt in Kyokushin Karate
+                  and a Gokyu rank in Judo.
               </div>
             </div>
             <div className='SkillBox7'>
               <div className='picBox'>
-
+                <img src={mountainPic} className='activityPic'></img>
               </div>
-              <div className='textBox'>  
-
+              <div className='textBox'>
+                <h3 className='ActivityTitle'>
+                  Outdoors
+                </h3>
+                  As a born, raised and proud Pacific Northwest resident, Riley
+                  enjoys frollicing in the lush forests and on the formidable 
+                  mountains. Activities include skiing, hiking, mountain
+                  biking and fighting sasquatches with his bare fists. Riley
+                  is also qualified to be your friendly yacht skipper.  
               </div>
             </div>
           </div>
           <div className='SkillBox5'>
             <div className='SkillBox8'>
               <div className='picBox'>
-
+                <img src={mountainPic} className='activityPic'></img>
               </div>
               <div className='textBox'>  
-
+                <h3 className='ActivityTitle'>
+                  Music Creation
+                </h3>
+                  Riley has a long time history playing and making music
+                  as an amateur internet artist. The types of music Created
+                  are a broad range from Metal all the way to obscure, creative
+                  experimental tracks. Instruments played include the guitar,
+                  bass, keyboards and programming. 
               </div>
             </div>
             <div className='SkillBox9'>
               <div className='picBox'>
-
+                <img src={mountainPic} className='activityPic'></img>
               </div>
               <div className='textBox'>  
-
+                <h3 className='ActivityTitle'>
+                  Game Creation
+                </h3>
+                  After learning Monograme C# XNA from the design and architecture
+                  it has been decided that Riley will start on a long time dream 
+                  side scroller game. More on this game will be added as progress
+                  is made hopefully this summer.
               </div>
             </div>
           </div>
@@ -410,6 +455,13 @@ function App() {
             <h3>
               References
             </h3>
+            Don Brancato
+            <br></br>
+            Rackshit Bhatt
+            <br></br>
+            Phillip Morgan
+            <br></br>
+            
             
           </div>
           <div className='ClosingNotesUpdatesContainer'>
@@ -420,7 +472,9 @@ function App() {
             <br></br>
             - 3/8 Continuing to fill out content for the site.
             <br></br>
-            - Future Updates: Comments, better UI/UX and refactor. 
+            - 3/20 Content complete. Slightly refactored.
+            <br></br>
+            - Future Updates: Comments, better UI/UX and refactor.  
           </div>
         </div>
       </div>
