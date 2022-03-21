@@ -1,6 +1,9 @@
 import Button from 'react-bootstrap/Button';
 import rainier from './rainier.jpg';
 import mountainPic from './profile pic temp.jpg';
+import karatePic from './karate.jpg';
+import guitarPic from './guitar.jpg';
+import gamePic from './monogame.png';
 import webPic from './logo-og.png';
 import propic from './Riley.jpeg';
 import nlppic from './nlp.jpg';
@@ -15,21 +18,29 @@ function App() {
         <img src={rainier} className='rainier'></img>
         Riley Hunter
         <h3 className="subheader">Aspiring Software Engineer</h3>
-        <div>
-          <a href='https://www.linkedin.com/in/riley-hunter-645379174/' className="Button">
-            LinkedIn
+        <div className='buttonDiv'>
+          <a href='https://www.linkedin.com/in/riley-hunter-645379174/' style={{textDecoration: 'none'}}>
+            <div className="Button">
+              LinkedIn
+            </div>
           </a>
           &nbsp;
-          <a href='https://github.com/riley93hunter' className="Button">
+          <a href='https://github.com/riley93hunter' style={{textDecoration: 'none'}}>
+            <div className="Button">
               GitHub
+            </div>
           </a>
           &nbsp;
-          <a href={`mailto:${"riley93hunter@gmail.com"}`} className="Button">
+          <a href={`mailto:${"riley93hunter@gmail.com"}`} style={{textDecoration: 'none'}}>
+            <div className="Button">
                  Email
+            </div>
           </a>
           &nbsp;
-          <a href={uploadedFileLink} target="_blank" rel="noopener noreferrer" download className="Button">
+          <a href={uploadedFileLink} target="_blank" rel="noopener noreferrer" download style={{textDecoration: 'none'}}>
+            <div className="Button">
               Download Resume
+            </div>
           </a>
         </div>
       </header>
@@ -104,9 +115,10 @@ function App() {
             <br></br>
             <br></br>
             <br></br>
-            <br></br>
-            <a href='https://github.com/riley93hunter/personalwebsite' className="Button">
-              GitHub Repo
+            <a href='https://github.com/riley93hunter/personalwebsite'>
+              <div className='Button'>
+                GitHub Repo
+              </div>
             </a>
           </div>
           <div className='projectlinkbox1'>
@@ -123,33 +135,41 @@ function App() {
                 <h3 className='header'>
                   Computer Security
                 </h3>
-                Encryption/decryption, CRUD permissions, security policies, etc all 
-                covered in this course.  
+                <div className='CourseContainerBoxText'>
+                  Encryption/decryption, CRUD permissions, security policies, etc all 
+                  covered in this course.
+                </div>  
               </div>
               <div className='CourseContainerBox'>
                 <h3 className='header'>
                   Advanced Data Structures
                 </h3>
+                <div className='CourseContainerBoxText'>
                 Programming heavy course in C++ that covers different data structures
                 including trees, linked lists, queues, hashes and stacks. All done in
                 a linux environment.
+                </div>
               </div>
               <div className='CourseContainerBox'>
                 <h3 className='header'>
                   Algorithms
                 </h3>
+                <div className='CourseContainerBoxText'>
                 A look into different algoritms complexity covering their time 
                 and space, uses, and structures. Regular expressions, Chomsky Normal
                 Form, encryption/decryption and various other topics covered.
+                </div>
               </div>
               <div className='CourseContainerBox'>
                 <h3 className='header'>
                   Object Oriented Principles
                 </h3>
+                <div className='CourseContainerBoxText'>
                 A look into object oriented language and design. The language learned
                 was C# and was used to create a Spreadsheet application utilizing
                 Visual Studios and gitlab as a semester project. Design patterns, test
                 driven development and version control were also main subjects.
+                </div>
               </div>
             </div>
             <div className='CourseContainerDivBox'>
@@ -157,34 +177,42 @@ function App() {
                 <h3 className='header'>
                   Software Engineering Principles I/II
                 </h3>
+                <div className='CourseContainerBoxText'>
                 Focus on different different workflows, software processes, testing
                 protocals for unit, integration and system testing.
+                </div>
               </div>
               <div className='CourseContainerBox'>
                 <h3 className='header'>
                   Database Systems Management
                 </h3>
+                <div className='CourseContainerBoxText'>
                 Focus on Relationial Databases, Postgres SQL, and database
                 design and management. Full stack yelp-like application with
                 python JSON parser, SQL database and C# XML front end with
                 SQL connections. Project has no share permissions due to
                 acedemic integrity requirements.
+                </div>
               </div>
               <div className='CourseContainerBox'>
                 <h3 className='header'>
                   Machine Learning
                 </h3>
+                <div className='CourseContainerBoxText'>
                 A class that focuses on different Machine Learning Algorithms
                 that can predict outcomes. Classwork done in Python. 
+              </div>
               </div>
               <div className='CourseContainerBox'>
                 <h3 className='header'>
                   Principles of Embedded Software 
                 </h3>
+                <div className='CourseContainerBoxText'>
                 Project based class focusing on embedded software design. 
                 Examples of projects were bluetooth fan, traffic light sensor,
                 temperature sensor with audio output. Projects based off 
                 Texas Instruments microcontroller.
+              </div>
               </div>
             </div>
             <div className='CourseContainerDivBox'>
@@ -192,39 +220,45 @@ function App() {
                 <h3 className='header'>
                   Systems Programming
                 </h3>
+                <div className='CourseContainerBoxText'>
                 Systems programming in C done in a linux environment. Built a 
                 File Extension System satisfactory to course requirements. Utilized
                 Git Bash, Raspberry Pi4, Nano and GDB debugger.
+              </div>
               </div>
               <div className='CourseContainerBox'>
                 <h3 className='header'>
                   Software Architecture and Design
                 </h3>
+                <div className='CourseContainerBoxText'>
                 Focuses on the principles of software architecture and various
                 design patterns such as abstract factory or composite design 
                 patterns. Semester project uses Monogame with a factory design
                 pattern in order to build a basic arcade game. Github not available
                 for acedemic itegrity purposes.
               </div>
+              </div>
               <div className='CourseContainerBox'>
                 <h3 className='header'>
                   Capstone (Senior Project) I/II
                 </h3>
-                Year long senior project class where project mentors were assigned
-                to our group with a task to work on a given project. Our senior project
-                was on the Boeing Natural Language Processing project. We were led by 
-                Don Brancato and Rakshit Bhatt. Many technologies were learned including
+                <div className='CourseContainerBoxText'>
+                 Our senior project
+                was on the Boeing Natural Language Processing project. Many technologies were learned including
                 Javascript/HTML/CSS with React and Bootstrap. Python flask and CSV crud operations
                 were also a major area of the application as is containerization and 
                 the software development process. 
+              </div>
               </div>
               <div className='CourseContainerBox'>
                 <h3 className='header'>
                   Software Maintenence
                 </h3>
+                <div className='CourseContainerBoxText'>
                 Refactoring, bug fixing, code analysis and quality assurance
                 techniques learned in a Java envirnment using Eclipse IDE,
                 JDeoderant, PMC, and the command line. 
+              </div>
               </div>
           </div>
         </div>
@@ -387,7 +421,7 @@ function App() {
           <div className='SkillBox4'>
             <div className='SkillBox6'>
               <div className='picBox'>
-                <img src={mountainPic} className='activityPic'></img>
+                <img src={karatePic} className='activityPic'></img>
               </div>
               <div className='textBox'>  
                 <h3 className='ActivityTitle'>
@@ -418,7 +452,7 @@ function App() {
           <div className='SkillBox5'>
             <div className='SkillBox8'>
               <div className='picBox'>
-                <img src={mountainPic} className='activityPic'></img>
+                <img src={guitarPic} className='activityPic'></img>
               </div>
               <div className='textBox'>  
                 <h3 className='ActivityTitle'>
@@ -433,7 +467,7 @@ function App() {
             </div>
             <div className='SkillBox9'>
               <div className='picBox'>
-                <img src={mountainPic} className='activityPic'></img>
+                <img src={gamePic} className='activityPic'></img>
               </div>
               <div className='textBox'>  
                 <h3 className='ActivityTitle'>
@@ -455,13 +489,14 @@ function App() {
             <h3>
               References
             </h3>
-            Don Brancato
+            Don Brancato - Email: Don.Brancato@boeing.com
             <br></br>
-            Rackshit Bhatt
+            Rackshit Bhatt - Email: rakshit.j.bhatt@boeing.com
             <br></br>
-            Phillip Morgan
+            Phillip Morgan - Email: morganp@wsu.edu
             <br></br>
-            
+            Mateja Loncar - Email: mateja.loncar@wsu.edu
+            <br></br>
             
           </div>
           <div className='ClosingNotesUpdatesContainer'>

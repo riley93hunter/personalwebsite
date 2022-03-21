@@ -37,9 +37,15 @@
 }
 
 .buttonBox{
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   height: 25px;
   width: 30px;
+  
+}
+
+.buttonDiv{
+  text-align: center;
+  width: auto;
   
 }
 
@@ -47,6 +53,12 @@
   cursor:pointer;
   background-color: rgb(150, 224, 224);
   font-size: 20px;
+  border-style: double;
+  text-decoration: none;
+  display: inline-block;
+  width:200px;
+  height: 30px;
+  border-radius: 10px;
 }
 
 .PortfolioContainer{
@@ -236,15 +248,21 @@
   margin-top: 25px;
   height: 300px;
   width: 350px;
-  float: 0;
+  text-align: center;
   border-radius: 50px;
   border-style: groove;
   float:left;
   margin-left: 40px;
 }
 
+.CourseContainerBoxText{
+  height:250px;
+  width:310px;
+  display: inline-block;
+}
+
 .header{
-  margin-top: 0px;
+  margin-top: 20px;
 }
 
 .body{
@@ -355,7 +373,10 @@
   border-radius: 25px;
   border-style:groove;
   float:left;
-  margin-right: 25px;
+  margin-right: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 .SkillBox4{
