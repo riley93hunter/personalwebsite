@@ -7,7 +7,8 @@ import gamePic from './monogame.png';
 import webPic from './logo-og.png';
 import propic from './Riley.jpeg';
 import nlppic from './nlp.jpg';
-import uploadedFileLink from './ResumeRileyHunter.pdf';
+import uploadedFileLinkSoft from './ResumeRileyHunter.pdf';
+import uploadedFileLinkKin from './ResumeRileyHunter-Kinesiology.pdf';
 import './App.css';
 
 function App() {
@@ -37,9 +38,15 @@ function App() {
             </div>
           </a>
           &nbsp;
-          <a href={uploadedFileLink} target="_blank" rel="noopener noreferrer" download style={{textDecoration: 'none'}}>
-            <div className="Button">
-              Download Resume
+          <a href={uploadedFileLinkSoft} target="_blank" rel="noopener noreferrer" download style={{textDecoration: 'none'}}>
+            <div className="ResumeButton">
+              Download Resume - Software Engineering
+            </div>
+          </a>
+          &nbsp;
+          <a href={uploadedFileLinkKin} target="_blank" rel="noopener noreferrer" download style={{textDecoration: 'none'}}>
+            <div className="ResumeButton">
+              Download Resume - Kinesiology
             </div>
           </a>
         </div>
@@ -52,11 +59,10 @@ function App() {
             <h3 className="aboutheader">About Me</h3>
             <div className='aboutdesc'> 
               Currently I am an undergrad at Washington State University about to graduate with a
-              Bachelors of Science in Software Engineering in May, 2022. I aspire to use my 
-              learning to foster a lifelong career in Software Development, Engineering, and 
-              Architecture in order to make an impact in the world.
-              <br></br>
-              <br></br>
+              Bachelors of Science in Kinesiology and Software Engineering in August, 2022. Currently,
+              I am in the process of finding a summer job in Health and Wellness or Exercise Science 
+              in order to fulfull my Kinesiology internship requirements for graduation. After that and during
+              I will be studying up in preparation for finding my career in Software Engineering.
               <br></br>
               <br></br>
               <br></br>
@@ -97,7 +103,6 @@ function App() {
         </div>
       </div>
 
-
       <div className='PortfolioContainer'>
         <div className='ProjectsContainer1'>
           <h3 className="projectheader1">Featured Project - Personal Website and Others</h3>
@@ -120,6 +125,40 @@ function App() {
                 GitHub Repo
               </div>
             </a>
+          </div>
+          <div className='projectlinkbox1'>
+            <img src={webPic} className='webimage'></img>
+          </div>
+        </div>
+      </div>
+
+      <div className='PortfolioContainer'>
+        <div className='ProjectsContainer2'>
+          <h3 className="projectheader1">Embedded Software Projects - Summary</h3>
+          <div className='projectbody1'>
+            The following embedded software projects were developed in WSU's embedded
+            software course. These projects utilized C programming code and 
+            <br></br>
+            <br></br>
+            Stop Light Simulator - A simulation that lights up 3 sets of LEDs
+            that re enacts the intersection of Main Street, Spring Street with
+            the Ped light.
+            <br></br>
+            Bluetooth Fan - Used UART bluetooth connection and Arduino to control fan speeds.
+            <br></br>
+            Temperature Sensor - UART bluetooth connection to communicate temperature sensor
+            data on Arduino. Audio speaker connection to also to communicate data
+            using 3 different sound frequencies based on hot, warm or cold.
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            {/* <a href='https://github.com/riley93hunter/personalwebsite'>
+              <div className='Button'>
+                GitHub Repo
+              </div>
+            </a> */}
           </div>
           <div className='projectlinkbox1'>
             <img src={webPic} className='webimage'></img>
@@ -429,8 +468,8 @@ function App() {
                 </h3>
                   Riley enjoys a wide variety of martial arts disciplines including
                   Kyokushin, Kickboxing, Judo, and Jiu Jitsu and has competitive 
-                  experience. Riley holds a Black Belt in Kyokushin Karate
-                  and a Gokyu rank in Judo.
+                  experience. Riley holds a black belt in Kyokushin Karate
+                  and a gokyu rank (orange belt) in Judo.
               </div>
             </div>
             <div className='SkillBox7'>
@@ -459,7 +498,7 @@ function App() {
                   Music Creation
                 </h3>
                   Riley has a long time history playing and making music
-                  as an amateur internet artist. The types of music Created
+                  as an amateur internet artist. The types of music created
                   are a broad range from Metal all the way to obscure, creative
                   experimental tracks. Instruments played include the guitar,
                   bass, keyboards and programming. 
@@ -494,9 +533,13 @@ function App() {
             Rackshit Bhatt - Email: rakshit.j.bhatt@boeing.com
             <br></br>
             Phillip Morgan - Email: morganp@wsu.edu
+            
             <br></br>
             Mateja Loncar - Email: mateja.loncar@wsu.edu
             <br></br>
+            <br></br>
+            <br></br>
+            For more references, please email me.
             
           </div>
           <div className='ClosingNotesUpdatesContainer'>
@@ -508,6 +551,8 @@ function App() {
             - 3/8 Continuing to fill out content for the site.
             <br></br>
             - 3/20 Content complete. Slightly refactored.
+            <br></br>
+            - 4/20 Some grammer errors, two resume versions added. Site changes planned.
             <br></br>
             - Future Updates: Comments, better UI/UX and refactor.  
           </div>

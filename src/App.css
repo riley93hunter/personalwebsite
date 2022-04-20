@@ -61,6 +61,18 @@
   border-radius: 10px;
 }
 
+.ResumeButton{
+  cursor:pointer;
+  background-color: rgb(150, 224, 224);
+  font-size: 20px;
+  border-style: double;
+  text-decoration: none;
+  display: inline-block;
+  width:200px;
+  height: 60px;
+  border-radius: 10px;
+}
+
 .PortfolioContainer{
   background-color:darkgreen;
   height: 400px;
@@ -179,6 +191,19 @@
   height: 300px;
   width: 1200px;
   margin-left: 25px;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  float: 0;
+  border-radius: 25px;
+  border-style: groove;
+}
+
+.ProjectsContainer2{
+  background-color:aqua;
+  height: 300px;
+  width: 1200px;
+  margin-left: 650px;
   margin-right: auto;
   margin-top: 50px;
   margin-bottom: 50px;
