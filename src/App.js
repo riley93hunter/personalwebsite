@@ -43,12 +43,12 @@ function App() {
               Download Resume - Software Engineering
             </div>
           </a>
-          &nbsp;
+          {/* &nbsp;
           <a href={uploadedFileLinkKin} target="_blank" rel="noopener noreferrer" download style={{textDecoration: 'none'}}>
             <div className="ResumeButton">
               Download Resume - Kinesiology
             </div>
-          </a>
+          </a> */}
         </div>
       </header>
       
@@ -58,19 +58,17 @@ function App() {
           <div className='aboutmebox'>
             <h3 className="aboutheader">About Me</h3>
             <div className='aboutdesc'> 
-              Currently I am an undergrad at Washington State University about to graduate with a
-              Bachelors of Science in Kinesiology and Software Engineering in August, 2022. Currently,
-              I am in the process of finding a summer job in Health and Wellness or Exercise Science 
-              in order to fulfull my Kinesiology internship requirements for graduation. After that and during
-              I will be studying up in preparation for finding my career in Software Engineering.
+              Currently I am an undergraduate at Washington State University about to graduate with a
+              Bachelors of Science in Software Engineering in May, 2022. Currently,
+              I am in the process of finding a job in either Software or Firmware Engineering, open to 
+              many other possibilities in the world of technology.
               <br></br>
               <br></br>
               <br></br>
               <br></br>
               <br></br>
-              Like what you see?
               <br></br>
-              Scroll down!
+              Scroll down for more!
             </div>
           </div>
           <div className='probox'> 
@@ -137,7 +135,8 @@ function App() {
           <h3 className="projectheader1">Embedded Software Projects - Summary</h3>
           <div className='projectbody1'>
             The following embedded software projects were developed in WSU's embedded
-            software course. These projects utilized C programming code and 
+            software course. These projects utilized C programming code, Microcontroller, breadboard,
+            Keil IDE, UART and Arduino.
             <br></br>
             <br></br>
             Stop Light Simulator - A simulation that lights up 3 sets of LEDs
